@@ -1,0 +1,108 @@
+<style>
+  body{
+  background-color:	#FFFAFA;
+  font-family:'monospace', Courier;
+  text-align: center;
+  padding: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h1{
+  font-weight: 900;
+  color:#ff9e69
+}
+
+.change{
+  color: blueviolet;
+}
+
+.explain{
+  font-size: large;
+}
+
+img {
+   width: 50%; }
+
+body a:hover{
+color: rgb(0, 157, 255);
+}
+
+</style>
+
+
+
+
+<!DOCTYPE html>
+<head>
+  <title> What is the difference between Margin, Border, and Padding?  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+ <h1>What is the difference between Margin, Border, and Padding?</h1>
+
+
+ <div class="explain">
+     A border that goes around the padding and content.
+<br> A mergin is the space around an element's border.
+<br> A padding is the space between an element's border and the element's content.  
+ </div>
+
+ <br>
+
+<img src="https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/Update%20css%20margin%20vs%20padding-2.png?width=1300&name=Update%20css%20margin%20vs%20padding-2.png" alt="explain border, mergin and padding" title="explain image">
+
+<br>
+<br>
+<br>
+<h2 class="explain">Let's check examples of the code and result!</h2>
+<br>
+<br>
+<div>
+  h1{
+    padding: 0%;
+    margin: 0px;
+    border-width: 20px;
+  }
+  <br>
+<img src="../images/sc_1.png">
+<br>
+<br>
+<br>
+  h1{
+    padding: 0%;
+    <strong class="change">margin: 100px;</strong>
+    border-width: 20px;
+  }
+  <br>
+  <img src="../images/sc_2.png">
+  <br>
+  <br>
+ <br>
+    h1{
+      <strong class="change">padding: 20%;</strong>
+      margin: 0px;
+      border-width: 20px;
+    }
+    <br>
+    <img src="../images/sc_3.png">
+<br>
+<br>
+<br>
+    h1{
+      padding: 0%;
+      margin: 0px;
+      <strong class="change">border-width: 50px;</strong>
+    }
+    <br>
+    <img src="../images/sc_4.png">
+</div>
+<br>
+<br>
+Back to  <a href="../index.html">Main</a>.
+</body>
+
+
+</html>

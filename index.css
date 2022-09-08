@@ -30,3 +30,17 @@ section{
 .hi{
   text-decoration: underline;
   color: #e169ff;}
+
+.introduction{
+ color:#f8681a;
+}
+
+.choice{
+margin: 50px;
+display: flex;
+flex-direction: row;
+font-size: large;
+color: #e169ff;
+}
+
+
