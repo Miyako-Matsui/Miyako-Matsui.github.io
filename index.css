@@ -41,11 +41,11 @@ section{
 }
 
 .choice{
-margin: 50px;
+margin: 50px 0;
 display: flex;
-flex-direction: row;
-font-size: large;
 color: #e169ff;
 }
 
-
+.space{
+  padding: 20px;
+}
