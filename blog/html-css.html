@@ -6,7 +6,9 @@
   padding: 50px;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1{
@@ -23,11 +25,22 @@ h1{
 }
 
 img {
-   width: 50%; }
+  width: 50%;
+
+ }
 
 body a:hover{
 color: rgb(0, 157, 255);
 }
+
+.sc{
+  width: 60%;
+}
+
+code{
+  font-size: 15px;
+}
+
 
 </style>
 
@@ -61,45 +74,48 @@ color: rgb(0, 157, 255);
 <h2 class="explain">Let's check examples of the code and result!</h2>
 <br>
 <br>
-<div>
-  <code>h1{
+
+<div><!--.code start-->
+  <code>{
     padding: 0%;
     margin: 0px;
     border-width: 20px;
   }</code>
   <br>
-<img src="../images/sc_1.png">
+<img src="../images/sc_1.png" alt="result of screenshot" title="screenshot" class="sc">
 <br>
 <br>
 <br>
-  <code>h1{
+  <code>{
     padding: 0%;
     <strong class="change">margin: 100px;</strong>
     border-width: 20px;
   }</code>
+</div>
+
   <br>
-  <img src="../images/sc_2.png">
+  <img src="../images/sc_2.png" alt="result of screenshot" title="screenshot" class="sc">
   <br>
   <br>
  <br>
-   <code> h1{
+   <code> {
       <strong class="change">padding: 20%;</strong>
       margin: 0px;
       border-width: 20px;
     }</code>
     <br>
-    <img src="../images/sc_3.png">
+    <img src="../images/sc_3.png" alt="result of screenshot" title="screenshot" class="sc">
 <br>
 <br>
 <br>
-    <code>h1{
+    <code>{
       padding: 0%;
       margin: 0px;
      <strong class="change">border-width: 50px;</strong>
     }</code>
     <br>
-    <img src="../images/sc_4.png">
-</div>
+    <img src="../images/sc_4.png" alt="result of screenshot" title="screenshot" class="sc">
+</div><!--.code end-->
 <br>
 <br>
 </body>
