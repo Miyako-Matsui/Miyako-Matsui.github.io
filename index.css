@@ -1,8 +1,10 @@
+
+
 body{
 
   background-color:	#FFFAFA;
   font-family:'monospace', Courier;
-  text-align: center;
+  text-align:initial;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,11 +27,13 @@ body a:hover{
 
 h1{
   font-weight: 900;
-  color:#ff9e69
+  color:#ff9e69;
+  text-align: center;
 }
 
 .tips{
-  font-weight: 900;}
+  font-weight: 900;
+text-align: center;}
 
 
 .price{
@@ -63,10 +67,20 @@ color: #e169ff;
   color: #ff69b4;
 }
 
-#blog, .japan{max-width: 800px;
+#blog{max-width: 800px;
   display: block;
+  text-align: initial;
+}
+
+.japan{max-width: 800px;
+  display: block;
+  text-align: center;
 }
 
 .code-font{
 font-size:1px;
+}
+
+footer{
+  text-align: center;
 }
