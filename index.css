@@ -84,3 +84,14 @@ font-size:1px;
 footer{
   text-align: center;
 }
+
+.red{
+  color: rgba(214, 67, 67, 0.947);
+}
+
+.inline-block {
+  display:  inline-block;     
+  width: 40%;               
+  padding: 20px;             
+  vertical-align:  middle;    
+}
